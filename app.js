@@ -1,7 +1,7 @@
 const express = require('express');
 const fs = require('fs'); // Importa o módulo de file system
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;  // Usa a porta definida pelo Azure ou a 3000
 
 // Middleware para analisar o body das requisições
 app.use(express.json());
