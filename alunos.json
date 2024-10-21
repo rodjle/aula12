@@ -1,0 +1,21 @@
+
+{
+    
+        "alunos": [
+            {
+                "codigo": 1,
+                "nome": "João",
+                "idade": 20,
+                "turma": "Turma A"
+            },
+            {
+                "codigo": 2,
+                "nome": "Maria",
+                "idade": 19,
+                "turma": "Turma B"
+            }
+ 
+        ]
+    
+  }
+  
